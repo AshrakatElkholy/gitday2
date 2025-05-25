@@ -1,6 +1,19 @@
-h1{
-    color: red;
+h1 {
+  color: red;
+  animation: fadeIn 2s ease-in-out;
 }
-button{
-    color: #000;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+button {
+  color: #000;
 }
